@@ -1,0 +1,90 @@
+.shadowedBox, .fixture-card {
+  box-shadow: 0px 2px 20px #212630; }
+
+body {
+  background-color: #006dc1 !important; }
+
+.navbar-toggler-icon {
+  background-image: url("../assets/menu_hamburg.png") !important; }
+
+nav {
+  background-color: #ffffff;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3); }
+  nav .logo-item {
+    margin: 12px 0px 12px 6px; }
+  nav .navi-list {
+    padding: 8px;
+    margin: auto;
+    margin-left: 18px;
+    margin-right: 18px;
+    font-size: 1.2rem; }
+  nav a {
+    color: #006dc1;
+    text-shadow: 0.6px 0.6px 1px #00508e; }
+  nav a:hover {
+    color: #dc9d00;
+    text-shadow: 0.5px 0.5px 1px #a97900; }
+
+.footer {
+  flex-direction: row !important; }
+
+.newsletter {
+  padding-top: 70px;
+  padding-bottom: 10px;
+  margin: 0px 0px 0px 0px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+  background-image: url("../assets/newsletter_bg.png");
+  background-size: cover;
+  background-position: center center; }
+  .newsletter input[type=email] {
+    width: 40%;
+    border: 1px solid #212630;
+    border-radius: 8px;
+    font-size: 1.4rem; }
+  .newsletter .newsletterHead {
+    color: #ffffff; }
+  .newsletter .newsletterAssist {
+    color: #ffffff;
+    padding: 10px; }
+  .newsletter .substantialGap {
+    margin-bottom: 70px; }
+
+.car-text {
+  font-size: 1.75rem !important;
+  color: #ffffff !important; }
+
+.carousel-black-text {
+  font-size: 2rem !important;
+  color: #000000 !important; }
+
+.fixture-card {
+  background-color: #fffff0;
+  margin: 10px 5px;
+  padding: 2px 5px; }
+
+.team-pos {
+  margin: auto;
+  padding: 6px 6px; }
+
+.fixture-text, .league-text {
+  color: #ffffff; }
+
+.league-table {
+  margin: 20px 0px 10px 0px;
+  padding: 6px; }
+  .league-table .pl-table {
+    color: #fffff0; }
+  .league-table table {
+    width: 100%; }
+    .league-table table th {
+      color: #ffffff;
+      font-weight: bolder; }
+    .league-table table td, .league-table table th {
+      padding: 10px;
+      text-align: center; }
+    .league-table table td {
+      color: #fffff0; }
+    .league-table table .table-logo {
+      height: 36px; }
+
+/*# sourceMappingURL=style.css.map */
